@@ -333,8 +333,8 @@
 
      <!-- Footer Section Starts Here -->
      <footer class="bg-[#0B0D17] font-manrope">
-      <div class="container mx-auto pt-14 pb-20">
-        <div class="">
+      <div class="container mx-auto pt-14 pb-20 px-6">
+        <div class="flex flex-col md:flex-row justify-between">
           <!-- Footer Menu area -->
            <div>
               <!-- row 1 -->
@@ -356,7 +356,7 @@
                   </ul>
               </div>
               <!-- row 3 -->
-              <div>
+              <div class="hidden md:block">
                 <p class="text-white ps-4 text-sm">© 2020 bike. All rights reserved</p>
               </div>
             </div>
@@ -367,6 +367,9 @@
                 <img class="w-32" src="./images/others/ios.png" alt="">
                 <img class="w-32" src="./images/others/android.png" alt="">
              </div>
+        </div>
+        <div class="md:hidden">
+          <p class="text-white ps-4 text-sm text-center py-6 md:py-0">© 2020 bike. All rights reserved</p>
         </div>
       </div>
      </footer>
